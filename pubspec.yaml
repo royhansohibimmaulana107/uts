@@ -1,0 +1,32 @@
+name: go_caffee
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/coffee1.jpg
+    - assets/images/coffee2.jpg
+    - assets/images/coffee3.jpg
+    - assets/images/coffee4.jpg
+    - assets/images/coffee.png
+    - assets/images/food1.webp
+    - assets/images/food2.jpeg
+    - assets/images/food3.jpg
+    - assets/images/food4.webp
+    - assets/images/profile.png
