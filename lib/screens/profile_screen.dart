@@ -51,7 +51,7 @@ class ProfileScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 16),
                     const Text(
-                      'Layli',
+                      'royhan',
                       style: TextStyle(
                         fontSize: 22,
                         fontWeight: FontWeight.bold,
@@ -93,18 +93,6 @@ class ProfileScreen extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 24.0),
                 child: Column(
                   children: [
-                    _buildInfoCard(
-                      icon: Icons.shopping_bag_outlined,
-                      title: 'Riwayat Pesanan',
-                      subtitle: 'Lihat pesanan kamu sebelumnya',
-                      onTap: () {},
-                    ),
-                    _buildInfoCard(
-                      icon: Icons.favorite_border,
-                      title: 'Favorit',
-                      subtitle: 'Lihat produk favorit kamu',
-                      onTap: () {},
-                    ),
                     _buildInfoCard(
                       icon: Icons.settings_outlined,
                       title: 'Pengaturan',
